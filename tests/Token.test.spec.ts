@@ -31,7 +31,7 @@ describe("Kiaswap Contract", () => {
         // console.log(token)
     })
 
-    it('Owner ', async () => {
+    it('Buy Token ', async () => {
        await token.methods.BuyToken(100).send({
             from: '0xD021414FD8e860d3cfe632157E93E56b3F93FA93',
             value: 10
