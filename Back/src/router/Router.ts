@@ -1,8 +1,8 @@
 import { Router } from 'express';
-import usersRouter from './UserRouter';
+import usersRouter from './tether.router';
 
-const userRoutes = Router();
+const router = Router();
 
-userRoutes.use('/user', usersRouter);
+router.use('/tether', usersRouter);
 
-export default userRoutes;
+export default router;

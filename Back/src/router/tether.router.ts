@@ -1,9 +1,8 @@
 import express, { Express, Router, NextFunction, Request, Response } from 'express';
+import controller from './../Controller/Tether';
 const usersRouter = express.Router();
 
-usersRouter.post('/Create', async (req: Request, res: Response) => {
-
-})
+usersRouter.get('/getBalance/:accountNumber', controller.GetBalance)
 
 
 usersRouter.put('/Update/:id', async (req: Request, res: Response) => {
