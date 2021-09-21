@@ -9004,9 +9004,67 @@
     "name": "solc",
     "version": "0.8.7+commit.e28d00a7.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {
+        "0x49366d41841005f70df15732086f969dbf966468d4c0b4f8932daac242112c44": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_spender",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "_value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approvel",
+          "type": "event"
+        },
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "_value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xe559b56C5d49BA4B37167819EB2464B213261563",
+      "transactionHash": "0xd3e242f868136962dc68cf88781142bebe10a1c52fc4e5384221f3c107a7e524"
+    }
+  },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-09-15T08:49:02.266Z",
+  "updatedAt": "2021-09-20T13:38:49.755Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

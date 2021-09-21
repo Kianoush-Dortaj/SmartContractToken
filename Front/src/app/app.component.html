@@ -1,5 +1,69 @@
-<div class="contaier">
-  <div>
-    <label>Account Number : {{accountNumber}}</label>
+<div class="container">
+
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <div class="navbar">
+        <div class="name">
+          <div class="label">
+            Kianoush
+          </div>
+          <div class="value">
+            Dortaj
+          </div>
+        </div>
+        <div class="account">
+          <div class="label">
+            Account No:
+          </div>
+          <div class="value">
+            123456789
+          </div>
+        </div>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <div class="content">
+    <div class="info">
+      <div class="label">
+        <div class="usdt">
+          Stake Token
+        </div>
+        <div class="rwd">
+          Reward Token
+        </div>
+      </div>
+      <div class="value">
+        <div class="usdt">
+          0 USDT
+        </div>
+        <div class="rwd">
+          0 RWD
+        </div>
+      </div>
+    </div>
+    <div class="form">
+      <div class="info-form">
+        <div class="label">
+          <label>Stake Token</label>
+        </div>
+        <div class="balance">
+          <label>Balance: 256</label>
+        </div>
+      </div>
+      <div class="inputs">
+        <mat-form-field class="example-form-field" appearance="fill">
+          <mat-label>Amount</mat-label>
+          <input matInput type="number">
+          <span matSuffix aria-label="Clear">
+            <img src="./../assets/Cjdowner-Cryptocurrency-Flat-Tether-USDT.svg">
+          </span>
+        </mat-form-field>
+      </div>
+      <div class="buttons">
+        <button mat-flat-button color="accent">Deposit</button>
+        <button mat-flat-button color="warn">Withdraw</button>
+      </div>
+    </div>
   </div>
 </div>

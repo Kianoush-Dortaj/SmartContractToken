@@ -7,8 +7,8 @@ declare global {
     var web3: Web3;
 }
 
-const url = "HTTP://127.0.0.1:7545";
-const web3 = new Web3(url);
+// const url = "https://ropsten.infura.io/v3/afa51bf9aa97452d90cbc4713d14888d";
+const web3 = new Web3('HTTP://127.0.0.1:7545');
 global.web3 = web3;
 const app = express();
 const port = process.env.PORT || 3000;

@@ -1,0 +1,81 @@
+.container {
+  .navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+
+    .name {
+      width: 50%;
+      display: flex;
+
+      .label {}
+
+      .value {}
+    }
+  }
+
+  .account {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+
+    .label {}
+
+    .value {}
+  }
+
+  .content {
+    margin: 0 auto;
+    width: 36%;
+
+    .info {
+      //   width: 36%;
+      border-radius: 10px;
+      background-color: #fff;;
+      .label {
+        font-weight: bolder;
+        margin: 16px 0;
+        display: flex;
+        border-bottom: 1px solid gainsboro;
+        // border-top: 1px solid;
+        padding: 15px;
+        justify-content: space-between;
+      }
+
+      .value {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+      }
+    }
+
+    .form {
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 7px;
+      margin-top: 15px;
+
+      .info-form {
+        display: flex;
+        justify-content: space-between;
+        .label{
+            font-weight: bold;
+        }
+      }
+      .inputs{
+        margin-top: 26px;
+        mat-form-field{
+            width: 100%;
+        }
+      }
+      .buttons{
+        display: flex;
+        justify-content: space-between;
+          button{
+              width: 45%;
+          }
+      }
+    }
+  }
+}
