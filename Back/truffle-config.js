@@ -7,7 +7,13 @@ module.exports = {
             port: 7545,
             network_id: 5777
         },
-        
+        ropsten: {
+            provider: function () {
+                return new HDWalletProvider(MNEMONIC, "https://ropsten.infura.io/v3/afa51bf9aa97452d90cbc4713d14888d");
+            },
+            network_id: 3,
+            gas: 4700000
+        },
     },
     contracts_directory: './src/contracts/',
     contracts_build_directory: './build',
